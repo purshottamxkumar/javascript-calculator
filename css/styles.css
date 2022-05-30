@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 91, 91);
+}
+
+.main {
+    width: 350px;
+    /* height: 540px; */
+    margin: 25px auto;
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.middle {
+    margin: 0 auto 10px;
+    padding-left: 2px;
+}
+
+.middle input {
+    margin: 0 4px 0 4px;
+}
+
+input {
+    width: 75px;
+    height: 75px;
+    font-size: 1.5em;
+}
+
+#clear-all {
+    width: 350px;
+    height: 60px;
+    margin: auto;
+    background-color: rgb(141, 187, 189);
+}
+
+#show-result {
+    width: 98%;
+    height: 65px;
+    margin: auto;
+    background-color: darkturquoise;
+
+    text-align: right;
+    font-size: 30px;
+}
