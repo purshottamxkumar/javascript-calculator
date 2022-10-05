@@ -9,20 +9,22 @@ body {
 }
 
 .main { /* contains the whole calculator including the form */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 380px;
-    margin: 20px auto; /* margin top and bottom are given only */
+    margin: auto; /* margin top and bottom are given only */
+    margin-top: 2%;
     margin-bottom: 0;
     padding: 15px;
     background-color: aquamarine;
 }
 
-.main form {
-    border: 2px solid green;
+.showResult {
+    display: flex;
+    justify-content: center;
 }
 
 .show-result-input {
-    width: 99%;
+    width: 95%;
     margin: auto;
     background-color: darkturquoise;
     text-align: right;
@@ -30,13 +32,13 @@ body {
 }
 
 .middle {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 99%;
     margin: auto;
 }
 
 .row {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -50,11 +52,13 @@ input { /* number buttons width and height */
 }
 
 .clearDiv {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: center;
 }
 
 #clear-all-input {
-    width: 100%;
+    width: 93%;
     height: 60px;
     background-color: rgb(141, 187, 189);
 }
